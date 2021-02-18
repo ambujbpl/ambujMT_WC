@@ -7,7 +7,7 @@ const MainArea = () => {
 	return (
 		<div className="mainAreaCss">
 			<div className="row">
-				<div className="col s9">
+				<div className="col s9 p20">
 					<h6>{ui_data.header}</h6>
 					<div className="buttonAreaCss">
 						<a className="waves-effect waves-light btn-large borderRadiousForButton">{ui_data.info}</a>
@@ -15,7 +15,7 @@ const MainArea = () => {
 					</div>
 					<div className="questionAreaCss"><QuestionArea /></div>					
 				</div>
-				<div className="col s3 filterAreaCss">
+				<div className="col s3 filterAreaCss p20">
 					<FilterArea />
 				</div>
 			</div>

@@ -24,12 +24,6 @@ code {
 	margin-left: 150px;
 }
 
-.imageLogo {
-	width: 90px;
-	height: 90px;
-	border-radius: 50%;
-}
-
 .bgColor {
 	background-color: #048c6d;
 }
@@ -44,4 +38,8 @@ code {
 
 .mt150 {
 	margin-top: 150px;
+}
+
+.p20 {
+	padding: 20px !important;
 }

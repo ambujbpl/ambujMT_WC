@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './../logo.jpg';
+import logo from './../images/logo.jpg';
 import './../css/Header.css';
 const ui_data = require('./../utils/Header.json');
 const renderLeftHeaders = () => {

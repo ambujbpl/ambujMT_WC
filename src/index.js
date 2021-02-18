@@ -1,7 +1,7 @@
 import 'materialize-css/dist/css/materialize.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 

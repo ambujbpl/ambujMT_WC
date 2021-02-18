@@ -3,7 +3,6 @@ const FilterArea = () => {
 	return(
 		<div>
 			<div>
-
 				<a className="ml5"><i className="material-icons">remove_red_eye</i></a>
 				<a className="ml5"><i className="material-icons">picture_as_pdf</i></a>
 				<a className="ml5"><i className="material-icons">screen_share</i></a>
