@@ -4,9 +4,9 @@ const {questions} = require('./../utils/QuestionArea.json');
 const optionList = (ques) => {
 
 	return (
-		ques.map(options => {
+		ques.map((options,i) => {
 			return (
-				<div className="col s6">
+				<div key={i} className="col s6">
 					{options.key}.) {options.name}
 				</div>
 			)
@@ -15,10 +15,10 @@ const optionList = (ques) => {
 }
 const renderQuestion = () => {
 	return (
-		questions.map(ques => {
+		questions.map((ques,i) => {
 			return (
-				<div>
-					<div>Q. {ques.id} : {ques.title} <span className="right">(5) <i class="material-icons">import_export</i> <i class="material-icons">more_vert</i></span></div>
+				<div key={i}>
+					<div>Q. {ques.id} : {ques.title} <span className="right">(5) <i className="material-icons">import_export</i> <i className="material-icons">more_vert</i></span></div>
 					<div className="row">{optionList(ques.options)}</div>
 				</div>
 			)
