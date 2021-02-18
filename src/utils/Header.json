@@ -9,6 +9,5 @@
     {"name":"search", "type": "icon"},
     {"name":"add_alert", "type": "icon"},
     {"name":"logo", "type": "image"}
-  ],
-  "review": "Review And Share"
+  ]
 }

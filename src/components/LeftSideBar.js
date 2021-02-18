@@ -1,15 +1,19 @@
 import React from 'react';
+import './../css/LeftSideBar.css';
+const ui_data = require('./../utils/LeftSideBar.json');
+console.log(ui_data);
+const renderLiftSideBarList = () => {
+	return (
+		ui_data.leftSideBar.map(item => {
+			return <li><a href={item.url}><i class="material-icons white-text">{item.name}</i></a></li>
+		})
+	)
+}
 const LeftSideBar = () => {
 	return (		
-		<ul id="sidenav-1" className="sidenav sidenav-fixed bgColor" style={{width: '150px'}}>
-			<div style={{marginTop: '150px'}}>
-				<li><a href="/"><i class="material-icons white-text">casino</i></a></li>
-				<li><a href="/"><i class="material-icons white-text">assignment</i></a></li>
-				<li><a href="/"><i class="material-icons white-text">rate_review</i></a></li>
-				<li><a href="/"><i class="material-icons white-text">speaker_notes</i></a></li>
-				<li><a href="/"><i class="material-icons white-text">redeem</i></a></li>
-				<li><a href="/"><i class="material-icons white-text">streetview</i></a></li>
-				<li><a href="/"><i class="material-icons white-text">add_circle</i></a></li>
+		<ul id="sidenav-1" className="sidenav sidenav-fixed bgColor leftSideBarCss">
+			<div className="mt150">
+				{renderLiftSideBarList()}
 			</div>
 		</ul>
 	);

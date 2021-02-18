@@ -1,0 +1,11 @@
+{
+  "leftSideBar": [
+    {"name":"casino", "url": "/casino"},
+    {"name":"assignment", "url": "/assignment"},
+    {"name":"rate_review", "url": "/rate_review"},
+    {"name":"speaker_notes", "url": "/speaker_notes"},
+    {"name":"redeem", "url": "/redeem"},
+    {"name":"streetview", "url": "/streetview"},
+    {"name":"add_circle", "url": "/add_circle"}
+  ]
+}

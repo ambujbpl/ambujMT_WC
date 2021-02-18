@@ -39,5 +39,9 @@ code {
 }
 
 .sidenav{
-	width: 150px !importent;
+	width: 150px;
+}
+
+.mt150 {
+	margin-top: 150px;
 }

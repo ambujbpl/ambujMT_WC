@@ -10,8 +10,8 @@ const MainArea = () => {
 				<div className="col s9">
 					<h6>{ui_data.header}</h6>
 					<div className="buttonAreaCss">
-						<a className="waves-effect waves-light btn-large">{ui_data.info}</a>
-						<a className="waves-effect waves-light btn-large ml5">{ui_data.review}</a>
+						<a className="waves-effect waves-light btn-large borderRadiousForButton">{ui_data.info}</a>
+						<a className="waves-effect waves-light btn-large ml5 borderRadiousForButton">{ui_data.review}</a>
 					</div>
 					<div className="questionAreaCss"><QuestionArea /></div>					
 				</div>
