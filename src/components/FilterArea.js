@@ -1,13 +1,19 @@
 import React from 'react';
+import './../css/FilterArea.css';
+const ui_data = require('./../utils/FilterArea.json');
+const getHeaderIcons = () => {
+	return (
+		ui_data.headerIcons.map((icon,i) => {
+			return <a className="ml5" key={i}><i className="material-icons  verticalAlignMiddle">{icon.name}</i></a> 
+		})
+	)
+}
 const FilterArea = () => {
 	return(
 		<div>
 			<div>
-				<a className="ml5"><i className="material-icons">remove_red_eye</i></a>
-				<a className="ml5"><i className="material-icons">picture_as_pdf</i></a>
-				<a className="ml5"><i className="material-icons">screen_share</i></a>
-				<a className="ml5"><i className="material-icons">save</i></a>
-				<a className="btn-small ml5"><i className="material-icons">record_voice_over</i>Assign</a>
+				{getHeaderIcons()}
+				<a className="btn-small ml5 verticalAlignMiddle"><i className="material-icons">record_voice_over</i> Assign</a>
 			</div>
 			<div><i className="material-icons">record_voice_over</i> Apply Filter <i className="material-icons right">add</i></div>
 			<div>Difficulty Level</div>

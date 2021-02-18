@@ -1,0 +1,8 @@
+{
+  "headerIcons" : [
+    {"name":"remove_red_eye"},
+    {"name":"picture_as_pdf"},
+    {"name":"screen_share"},
+    {"name":"save"}
+  ]
+}
