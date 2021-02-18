@@ -1,0 +1,14 @@
+{
+  "leftHeaders": [
+    {"name":"Classroom", "url": "/classroom"},
+    {"name":"Assigned Work", "url": "/assignedwork"},
+    {"name":"MagicBand", "url": "/magicband"},
+    {"name":"Explore", "url": "/explore"}
+  ],
+  "rightHeaders": [
+    {"name":"search", "type": "icon"},
+    {"name":"add_alert", "type": "icon"},
+    {"name":"logo", "type": "image"}
+  ],
+  "review": "Review And Share"
+}
