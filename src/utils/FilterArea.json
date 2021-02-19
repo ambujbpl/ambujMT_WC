@@ -4,5 +4,15 @@
     {"name":"picture_as_pdf"},
     {"name":"screen_share"},
     {"name":"save"}
-  ]
+  ],
+  "filterApply": "Apply Filters",
+  "difficultyLevel": "Difficulty Level",
+  "easy": "Easy",
+  "hard": "Hard",
+  "checkBoxList": [
+    {"isChecked":true,"name":"My question bank"},
+    {"isChecked":true,"name":"MagicBand question bank"},
+    {"isChecked":false,"name":"Previous Year Question Papers"}],
+  "settings": "Settings",
+  "schedule": "Schedule" 
 }

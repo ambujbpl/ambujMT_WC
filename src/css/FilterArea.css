@@ -1,3 +1,7 @@
 .verticalAlignMiddle {
   vertical-align: middle;
 }
+
+.buttonCornerCss {
+  border-radius: 10px;
+}

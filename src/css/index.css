@@ -40,6 +40,33 @@ code {
 	margin-top: 150px;
 }
 
+.mt20 {
+	margin-top: 20px;
+}
+
+.mt25 {
+	margin-top: 25px;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
 .p20 {
 	padding: 20px !important;
+}
+
+.circleCss {
+  border-radius: 50px;
+  border: 1px solid  #048c6d;
+  background:  #048c6d;
+}
+
+.themeColor {
+  color: #048c6d;
+  font-weight: bold;
+}
+
+.uiSeperator {
+  border-bottom: 2px solid #ccc;
 }
